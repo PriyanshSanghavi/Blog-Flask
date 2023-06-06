@@ -35,7 +35,8 @@ Install Flask and sqlalchemy in a virtual environment by running the following c
     pip install flask-sqlalchemy
 ```
 
-Install the ``` jinja2 snippet kit ``` plugin in Visual Studio code.
+
+<b>Install the ``` jinja2 snippet kit ``` plugin in Visual Studio code.</b>
 ## Run
 Run this command in the terminal:
 ```bash
