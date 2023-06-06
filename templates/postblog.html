@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %} Post Blog {% endblock title %}
+{% block body %}
+<h2>Add Blog</h2>
+<form action="/" method='POST'>
+    <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <input type="text" name="title" class="form-control" id="title">
+    </div>
+    <div class="mb-3">
+        <label for="desc" class="form-label">Blog Text</label>
+        <textarea type="text" rows="5" name="desc" class="form-control" id="desc"></textarea>
+    </div>
+    <button type="submit" class="btn btn-outline-success">Submit</button>
+</form>
+{% endblock body %}
